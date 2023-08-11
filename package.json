@@ -1,0 +1,35 @@
+{
+  "name": "lib-cliente-ui",
+  "version": "1.0.7",
+  "files":["build"],
+  "engines": {
+    "node": ">=12"
+  },
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/HeaderText.js -d build --out-file index.js"
+  },
+  "author": "Felipe Paulino",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
